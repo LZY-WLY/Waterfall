@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220EEB25B3E051E1CB9BEFE1 /* libPods-Waterfall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8093AD6F0856690EC72B41C3 /* libPods-Waterfall.a */; };
+		48AFCF601E5BE93A00282064 /* LZYShopModle.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AFCF5F1E5BE93A00282064 /* LZYShopModle.m */; };
+		48AFCF621E5BE94900282064 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48AFCF611E5BE94900282064 /* 1.plist */; };
+		48AFCF691E5BEA4B00282064 /* LZYShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AFCF671E5BEA4B00282064 /* LZYShopCell.m */; };
+		48AFCF6A1E5BEA4B00282064 /* LZYShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AFCF681E5BEA4B00282064 /* LZYShopCell.xib */; };
+		48E3D4A51E5ADFAA00186554 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3D4A41E5ADFAA00186554 /* main.m */; };
+		48E3D4A81E5ADFAA00186554 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3D4A71E5ADFAA00186554 /* AppDelegate.m */; };
+		48E3D4AE1E5ADFAA00186554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E3D4AC1E5ADFAA00186554 /* Main.storyboard */; };
+		48E3D4B01E5ADFAA00186554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E3D4AF1E5ADFAA00186554 /* Assets.xcassets */; };
+		48E3D4B31E5ADFAA00186554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E3D4B11E5ADFAA00186554 /* LaunchScreen.storyboard */; };
+		48E3D4BE1E5ADFAA00186554 /* WaterfallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3D4BD1E5ADFAA00186554 /* WaterfallTests.m */; };
+		48E3D4C91E5ADFAA00186554 /* WaterfallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3D4C81E5ADFAA00186554 /* WaterfallUITests.m */; };
+		48E3D4D81E5ADFC400186554 /* LZYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3D4D71E5ADFC400186554 /* LZYViewController.m */; };
+		48E3D4DB1E5AE01700186554 /* LZYShopLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3D4DA1E5AE01700186554 /* LZYShopLayout.m */; };
+		63228E08964C996C7CE8737E /* libPods-WaterfallTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63363B6AD42D2A6CA46BD684 /* libPods-WaterfallTests.a */; };
+		B84FE566AA5D00197845D5D0 /* libPods-WaterfallUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DDD1BF3F6A67C87C999649 /* libPods-WaterfallUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48E3D4BA1E5ADFAA00186554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48E3D4981E5ADFAA00186554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48E3D49F1E5ADFAA00186554;
+			remoteInfo = Waterfall;
+		};
+		48E3D4C51E5ADFAA00186554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48E3D4981E5ADFAA00186554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48E3D49F1E5ADFAA00186554;
+			remoteInfo = Waterfall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D0C570A91630F4F0B9BF92F /* Pods-Waterfall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waterfall.release.xcconfig"; path = "Pods/Target Support Files/Pods-Waterfall/Pods-Waterfall.release.xcconfig"; sourceTree = "<group>"; };
+		2A5F3E1CB95E85C85273F6AC /* Pods-WaterfallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterfallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterfallTests/Pods-WaterfallTests.release.xcconfig"; sourceTree = "<group>"; };
+		48AFCF5E1E5BE93A00282064 /* LZYShopModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZYShopModle.h; sourceTree = "<group>"; };
+		48AFCF5F1E5BE93A00282064 /* LZYShopModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZYShopModle.m; sourceTree = "<group>"; };
+		48AFCF611E5BE94900282064 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		48AFCF661E5BEA4B00282064 /* LZYShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZYShopCell.h; sourceTree = "<group>"; };
+		48AFCF671E5BEA4B00282064 /* LZYShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZYShopCell.m; sourceTree = "<group>"; };
+		48AFCF681E5BEA4B00282064 /* LZYShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZYShopCell.xib; sourceTree = "<group>"; };
+		48E3D4A01E5ADFAA00186554 /* Waterfall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waterfall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E3D4A41E5ADFAA00186554 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48E3D4A61E5ADFAA00186554 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48E3D4A71E5ADFAA00186554 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48E3D4AD1E5ADFAA00186554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48E3D4AF1E5ADFAA00186554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48E3D4B21E5ADFAA00186554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48E3D4B41E5ADFAA00186554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E3D4B91E5ADFAA00186554 /* WaterfallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterfallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E3D4BD1E5ADFAA00186554 /* WaterfallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterfallTests.m; sourceTree = "<group>"; };
+		48E3D4BF1E5ADFAA00186554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E3D4C41E5ADFAA00186554 /* WaterfallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterfallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E3D4C81E5ADFAA00186554 /* WaterfallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterfallUITests.m; sourceTree = "<group>"; };
+		48E3D4CA1E5ADFAA00186554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E3D4D61E5ADFC400186554 /* LZYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZYViewController.h; sourceTree = "<group>"; };
+		48E3D4D71E5ADFC400186554 /* LZYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZYViewController.m; sourceTree = "<group>"; };
+		48E3D4D91E5AE01700186554 /* LZYShopLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZYShopLayout.h; sourceTree = "<group>"; };
+		48E3D4DA1E5AE01700186554 /* LZYShopLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZYShopLayout.m; sourceTree = "<group>"; };
+		63363B6AD42D2A6CA46BD684 /* libPods-WaterfallTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WaterfallTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		686BF9814FCA2E0EA0840D3F /* Pods-WaterfallUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterfallUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterfallUITests/Pods-WaterfallUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73AB1608D1D409374A613086 /* Pods-Waterfall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waterfall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Waterfall/Pods-Waterfall.debug.xcconfig"; sourceTree = "<group>"; };
+		8093AD6F0856690EC72B41C3 /* libPods-Waterfall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Waterfall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DDD1BF3F6A67C87C999649 /* libPods-WaterfallUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WaterfallUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23EF11BFA77B22AB45E1A1F /* Pods-WaterfallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterfallUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterfallUITests/Pods-WaterfallUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0DEFA78B952367BDCB40AE1 /* Pods-WaterfallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterfallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterfallTests/Pods-WaterfallTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48E3D49D1E5ADFAA00186554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220EEB25B3E051E1CB9BEFE1 /* libPods-Waterfall.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E3D4B61E5ADFAA00186554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63228E08964C996C7CE8737E /* libPods-WaterfallTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E3D4C11E5ADFAA00186554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84FE566AA5D00197845D5D0 /* libPods-WaterfallUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		268EA0BA9D19053F80CD0B09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8093AD6F0856690EC72B41C3 /* libPods-Waterfall.a */,
+				63363B6AD42D2A6CA46BD684 /* libPods-WaterfallTests.a */,
+				A1DDD1BF3F6A67C87C999649 /* libPods-WaterfallUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48E3D4971E5ADFAA00186554 = {
+			isa = PBXGroup;
+			children = (
+				48E3D4A21E5ADFAA00186554 /* Waterfall */,
+				48E3D4BC1E5ADFAA00186554 /* WaterfallTests */,
+				48E3D4C71E5ADFAA00186554 /* WaterfallUITests */,
+				48E3D4A11E5ADFAA00186554 /* Products */,
+				FAEA74CEE714DB77697E7E92 /* Pods */,
+				268EA0BA9D19053F80CD0B09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48E3D4A11E5ADFAA00186554 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48E3D4A01E5ADFAA00186554 /* Waterfall.app */,
+				48E3D4B91E5ADFAA00186554 /* WaterfallTests.xctest */,
+				48E3D4C41E5ADFAA00186554 /* WaterfallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48E3D4A21E5ADFAA00186554 /* Waterfall */ = {
+			isa = PBXGroup;
+			children = (
+				48E3D4A61E5ADFAA00186554 /* AppDelegate.h */,
+				48E3D4A71E5ADFAA00186554 /* AppDelegate.m */,
+				48E3D4D61E5ADFC400186554 /* LZYViewController.h */,
+				48E3D4D71E5ADFC400186554 /* LZYViewController.m */,
+				48AFCF661E5BEA4B00282064 /* LZYShopCell.h */,
+				48AFCF671E5BEA4B00282064 /* LZYShopCell.m */,
+				48AFCF681E5BEA4B00282064 /* LZYShopCell.xib */,
+				48AFCF5E1E5BE93A00282064 /* LZYShopModle.h */,
+				48AFCF5F1E5BE93A00282064 /* LZYShopModle.m */,
+				48E3D4D91E5AE01700186554 /* LZYShopLayout.h */,
+				48E3D4DA1E5AE01700186554 /* LZYShopLayout.m */,
+				48E3D4A31E5ADFAA00186554 /* Supporting Files */,
+			);
+			path = Waterfall;
+			sourceTree = "<group>";
+		};
+		48E3D4A31E5ADFAA00186554 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48E3D4AC1E5ADFAA00186554 /* Main.storyboard */,
+				48E3D4AF1E5ADFAA00186554 /* Assets.xcassets */,
+				48E3D4B11E5ADFAA00186554 /* LaunchScreen.storyboard */,
+				48E3D4B41E5ADFAA00186554 /* Info.plist */,
+				48AFCF611E5BE94900282064 /* 1.plist */,
+				48E3D4A41E5ADFAA00186554 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48E3D4BC1E5ADFAA00186554 /* WaterfallTests */ = {
+			isa = PBXGroup;
+			children = (
+				48E3D4BD1E5ADFAA00186554 /* WaterfallTests.m */,
+				48E3D4BF1E5ADFAA00186554 /* Info.plist */,
+			);
+			path = WaterfallTests;
+			sourceTree = "<group>";
+		};
+		48E3D4C71E5ADFAA00186554 /* WaterfallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48E3D4C81E5ADFAA00186554 /* WaterfallUITests.m */,
+				48E3D4CA1E5ADFAA00186554 /* Info.plist */,
+			);
+			path = WaterfallUITests;
+			sourceTree = "<group>";
+		};
+		FAEA74CEE714DB77697E7E92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73AB1608D1D409374A613086 /* Pods-Waterfall.debug.xcconfig */,
+				0D0C570A91630F4F0B9BF92F /* Pods-Waterfall.release.xcconfig */,
+				B0DEFA78B952367BDCB40AE1 /* Pods-WaterfallTests.debug.xcconfig */,
+				2A5F3E1CB95E85C85273F6AC /* Pods-WaterfallTests.release.xcconfig */,
+				A23EF11BFA77B22AB45E1A1F /* Pods-WaterfallUITests.debug.xcconfig */,
+				686BF9814FCA2E0EA0840D3F /* Pods-WaterfallUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48E3D49F1E5ADFAA00186554 /* Waterfall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E3D4CD1E5ADFAA00186554 /* Build configuration list for PBXNativeTarget "Waterfall" */;
+			buildPhases = (
+				5C7032450EE0AC20B4AB322B /* [CP] Check Pods Manifest.lock */,
+				48E3D49C1E5ADFAA00186554 /* Sources */,
+				48E3D49D1E5ADFAA00186554 /* Frameworks */,
+				48E3D49E1E5ADFAA00186554 /* Resources */,
+				963E0E788195CA7E784693CF /* [CP] Embed Pods Frameworks */,
+				6194D97ABF462C201A9E9F97 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Waterfall;
+			productName = Waterfall;
+			productReference = 48E3D4A01E5ADFAA00186554 /* Waterfall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48E3D4B81E5ADFAA00186554 /* WaterfallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E3D4D01E5ADFAA00186554 /* Build configuration list for PBXNativeTarget "WaterfallTests" */;
+			buildPhases = (
+				D2E5ADBA2604C690FC694913 /* [CP] Check Pods Manifest.lock */,
+				48E3D4B51E5ADFAA00186554 /* Sources */,
+				48E3D4B61E5ADFAA00186554 /* Frameworks */,
+				48E3D4B71E5ADFAA00186554 /* Resources */,
+				508704BB8759B5F67DB231A4 /* [CP] Embed Pods Frameworks */,
+				3288CFE2958DF340EFF28C6C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48E3D4BB1E5ADFAA00186554 /* PBXTargetDependency */,
+			);
+			name = WaterfallTests;
+			productName = WaterfallTests;
+			productReference = 48E3D4B91E5ADFAA00186554 /* WaterfallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48E3D4C31E5ADFAA00186554 /* WaterfallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E3D4D31E5ADFAA00186554 /* Build configuration list for PBXNativeTarget "WaterfallUITests" */;
+			buildPhases = (
+				DF9D9DF5F065C8E4866D38E1 /* [CP] Check Pods Manifest.lock */,
+				48E3D4C01E5ADFAA00186554 /* Sources */,
+				48E3D4C11E5ADFAA00186554 /* Frameworks */,
+				48E3D4C21E5ADFAA00186554 /* Resources */,
+				C69F302B81EA51911C1B8E18 /* [CP] Embed Pods Frameworks */,
+				FD262A5051A2A223A82000B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48E3D4C61E5ADFAA00186554 /* PBXTargetDependency */,
+			);
+			name = WaterfallUITests;
+			productName = WaterfallUITests;
+			productReference = 48E3D4C41E5ADFAA00186554 /* WaterfallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48E3D4981E5ADFAA00186554 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LZY;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LZY;
+				TargetAttributes = {
+					48E3D49F1E5ADFAA00186554 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					48E3D4B81E5ADFAA00186554 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48E3D49F1E5ADFAA00186554;
+					};
+					48E3D4C31E5ADFAA00186554 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48E3D49F1E5ADFAA00186554;
+					};
+				};
+			};
+			buildConfigurationList = 48E3D49B1E5ADFAA00186554 /* Build configuration list for PBXProject "Waterfall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48E3D4971E5ADFAA00186554;
+			productRefGroup = 48E3D4A11E5ADFAA00186554 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48E3D49F1E5ADFAA00186554 /* Waterfall */,
+				48E3D4B81E5ADFAA00186554 /* WaterfallTests */,
+				48E3D4C31E5ADFAA00186554 /* WaterfallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48E3D49E1E5ADFAA00186554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E3D4B31E5ADFAA00186554 /* LaunchScreen.storyboard in Resources */,
+				48E3D4B01E5ADFAA00186554 /* Assets.xcassets in Resources */,
+				48AFCF621E5BE94900282064 /* 1.plist in Resources */,
+				48AFCF6A1E5BEA4B00282064 /* LZYShopCell.xib in Resources */,
+				48E3D4AE1E5ADFAA00186554 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E3D4B71E5ADFAA00186554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E3D4C21E5ADFAA00186554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3288CFE2958DF340EFF28C6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterfallTests/Pods-WaterfallTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		508704BB8759B5F67DB231A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterfallTests/Pods-WaterfallTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C7032450EE0AC20B4AB322B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6194D97ABF462C201A9E9F97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Waterfall/Pods-Waterfall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		963E0E788195CA7E784693CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Waterfall/Pods-Waterfall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C69F302B81EA51911C1B8E18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterfallUITests/Pods-WaterfallUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2E5ADBA2604C690FC694913 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF9D9DF5F065C8E4866D38E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD262A5051A2A223A82000B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterfallUITests/Pods-WaterfallUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48E3D49C1E5ADFAA00186554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AFCF601E5BE93A00282064 /* LZYShopModle.m in Sources */,
+				48E3D4D81E5ADFC400186554 /* LZYViewController.m in Sources */,
+				48E3D4DB1E5AE01700186554 /* LZYShopLayout.m in Sources */,
+				48AFCF691E5BEA4B00282064 /* LZYShopCell.m in Sources */,
+				48E3D4A81E5ADFAA00186554 /* AppDelegate.m in Sources */,
+				48E3D4A51E5ADFAA00186554 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E3D4B51E5ADFAA00186554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E3D4BE1E5ADFAA00186554 /* WaterfallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E3D4C01E5ADFAA00186554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E3D4C91E5ADFAA00186554 /* WaterfallUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48E3D4BB1E5ADFAA00186554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48E3D49F1E5ADFAA00186554 /* Waterfall */;
+			targetProxy = 48E3D4BA1E5ADFAA00186554 /* PBXContainerItemProxy */;
+		};
+		48E3D4C61E5ADFAA00186554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48E3D49F1E5ADFAA00186554 /* Waterfall */;
+			targetProxy = 48E3D4C51E5ADFAA00186554 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48E3D4AC1E5ADFAA00186554 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48E3D4AD1E5ADFAA00186554 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48E3D4B11E5ADFAA00186554 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48E3D4B21E5ADFAA00186554 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48E3D4CB1E5ADFAA00186554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48E3D4CC1E5ADFAA00186554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48E3D4CE1E5ADFAA00186554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73AB1608D1D409374A613086 /* Pods-Waterfall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Waterfall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZY.Waterfall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48E3D4CF1E5ADFAA00186554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D0C570A91630F4F0B9BF92F /* Pods-Waterfall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Waterfall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZY.Waterfall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48E3D4D11E5ADFAA00186554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0DEFA78B952367BDCB40AE1 /* Pods-WaterfallTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterfallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZY.WaterfallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waterfall.app/Waterfall";
+			};
+			name = Debug;
+		};
+		48E3D4D21E5ADFAA00186554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5F3E1CB95E85C85273F6AC /* Pods-WaterfallTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterfallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZY.WaterfallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waterfall.app/Waterfall";
+			};
+			name = Release;
+		};
+		48E3D4D41E5ADFAA00186554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A23EF11BFA77B22AB45E1A1F /* Pods-WaterfallUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = WaterfallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZY.WaterfallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Waterfall;
+			};
+			name = Debug;
+		};
+		48E3D4D51E5ADFAA00186554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 686BF9814FCA2E0EA0840D3F /* Pods-WaterfallUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = WaterfallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZY.WaterfallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Waterfall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48E3D49B1E5ADFAA00186554 /* Build configuration list for PBXProject "Waterfall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E3D4CB1E5ADFAA00186554 /* Debug */,
+				48E3D4CC1E5ADFAA00186554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48E3D4CD1E5ADFAA00186554 /* Build configuration list for PBXNativeTarget "Waterfall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E3D4CE1E5ADFAA00186554 /* Debug */,
+				48E3D4CF1E5ADFAA00186554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48E3D4D01E5ADFAA00186554 /* Build configuration list for PBXNativeTarget "WaterfallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E3D4D11E5ADFAA00186554 /* Debug */,
+				48E3D4D21E5ADFAA00186554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48E3D4D31E5ADFAA00186554 /* Build configuration list for PBXNativeTarget "WaterfallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E3D4D41E5ADFAA00186554 /* Debug */,
+				48E3D4D51E5ADFAA00186554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48E3D4981E5ADFAA00186554 /* Project object */;
+}
